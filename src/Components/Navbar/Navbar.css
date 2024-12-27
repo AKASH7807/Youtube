@@ -6,6 +6,16 @@ nav{
     position:sticky;
     top: 0;
     z-index: 10;
+    animation: slide 1s ease-in; 
+}
+@keyframes slide {
+    
+    0%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }
 .nav-left .menu-icon{
     width: 22px;

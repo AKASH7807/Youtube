@@ -6,6 +6,11 @@
     top: 0;
     padding-left: 2%;
     padding-top: 80px;
+    animation: left 1s ease-in;
+}
+@keyframes left {
+    0%{transform: translateX(-150px);}
+    100%{transform: translateX(0px);}
 }
 .sortcut-links img{
     width: 20px;

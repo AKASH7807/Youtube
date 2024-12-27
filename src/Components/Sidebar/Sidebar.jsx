@@ -14,6 +14,7 @@ import megan from '../../assets/megan.png'
 const Sidebar = ({sidebar,category,setCategory}) => {
   return (
     <div className={`sidebar ${sidebar ?" ":"small-sidebar"}`}>
+        
         <div className="sortcut-links">
             <div className={`side-link ${category===0 ? "active":" "}`} onClick={()=>setCategory(0)}>
                 <img src={home} /> <p>Home</p>

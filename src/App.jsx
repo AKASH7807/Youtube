@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar/Navbar.jsx'
 import { Routes, Route } from 'react-router-dom'
 import Home from './Pages/Home/Home.jsx'
 import Video from './Pages/Video/Video.jsx'
+import { motion } from "motion/react"
 
 const App = () => {
   const [sidebar, setSidebar] = useState(true)
