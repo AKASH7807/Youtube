@@ -16,3 +16,5 @@ This project is a simple web application that replicates the core functionalitie
 - **CSS**: Styling and layout for an attractive user interface.
 - **JavaScript**: Interactivity and dynamic content loading.
 - **YouTube API**: Fetching video data to display on the platform.
+
+**Live Link :** https://akash7807.github.io/youtube/
